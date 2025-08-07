@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Lifecycle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .diagram {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .stage {
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 120px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .arrows {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 30px 0;
+    }
+
+    .arrow {
+      font-size: 30px;
+      color: #333;
+    }
+
+    .descriptions {
+      margin-top: 40px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .descriptions h3 {
+      color: #0077cc;
+      margin-bottom: 5px;
+    }
+
+    .descriptions p {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DevOps Lifecycle Diagram</h1>
+
+  <div class="diagram">
+    <div class="stage">Plan</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Develop</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Build</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Test</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Release</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Deploy</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Operate</div>
+    <div class="arrow">➡️</div>
+    <div class="stage">Monitor</div>
+  </div>
+
+  <div class="descriptions">
+    <h3>Plan</h3>
+    <p>Define project goals and requirements, create roadmaps and task breakdowns.</p>
+
+    <h3>Develop</h3>
+    <p>Write and manage code collaboratively using version control systems like Git.</p>
+
+    <h3>Build</h3>
+    <p>Compile and assemble code into deployable applications or containers.</p>
+
+    <h3>Test</h3>
+    <p>Run automated or manual tests to ensure software quality and correctness.</p>
+
+    <h3>Release</h3>
+    <p>Prepare the build for production release and ensure it's ready for deployment.</p>
+
+    <h3>Deploy</h3>
+    <p>Deploy the application to production environments using CI/CD pipelines.</p>
+
+    <h3>Operate</h3>
+    <p>Manage and maintain the application in the live environment.</p>
+
+    <h3>Monitor</h3>
+    <p>Continuously monitor system performance, logs, and user activity.</p>
+  </div>
+
+</body>
+</html>
